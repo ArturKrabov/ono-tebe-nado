@@ -274,7 +274,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px 1fr;
-  grid-template-rows: 1052px;
+  grid-template-rows: 595px;
   margin: 146px 24px 0 24px;
 }
 
@@ -321,7 +321,7 @@
   font-size: 20px;
   line-height: 24px;
   /* or 120% */
-  letter-spacing: 0.01em;
+  letter-spacing: 0.0765px;
 
   color: #000000;
 }
@@ -345,11 +345,19 @@
   display: flex;
   gap: 48px;
   justify-self: end;
-  align-self: center;
 }
 
 .footer__menu {
   justify-self: center;
+
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #000000;
 }
 
 .footer__menu-list {
